@@ -1,3 +1,13 @@
-# Web 2 Starter
+# Google Doodle
 
-Put information about your project here. 
+## Brainstorming Ideas
+* snowboarding - olympic games
+* music
+* 4th of July
+* flowing river
+
+## Research for Ideas
+* Links
+* Movies
+* Presentations
+* TED Talks
