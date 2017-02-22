@@ -8,4 +8,4 @@ var max = 3;
 var randNum = Math.floor(Math.random() * max);
 
 // Display randomized images
-$('img').attr('src', eval('img' + randNum));
+$('#random').attr('src', eval('img' + randNum));

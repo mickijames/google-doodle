@@ -2,7 +2,33 @@
 
 @import 'google-homepage';
 
-body {
-    background: #0b0b0b;
+// First Frame
+img {
+    opacity: .5;
+    transform: scale(.5) rotate(0);
+    width: 50%;
+    
+    transition: transform .75s;
 }
 
+// Last Frame
+img:hover {
+    opacity: 1;
+    transform: scale(1.5) rotate(180deg);
+}
+
+
+// SVG First Frame
+.line {
+    fill:none;
+    stroke:#0000ff;
+    stroke-width:10;
+    stroke-miterlimit:10;
+    
+    transition: stroke .25s;
+}
+
+// SVG Last Frame
+.line:hover {
+    stroke: red;
+}
