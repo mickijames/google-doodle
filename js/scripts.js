@@ -1,7 +1,7 @@
 // Store 3 images
-var img0 = '../img/200.jpg';
-var img1 = '../img/300.jpg';
-var img2 = '../img/400.jpg';
+var img0 = '../img/castle-w-fireworks.jpg';
+//var img1 = '../img/300.jpg';
+//var img2 = '../img/400.jpg';
 
 // Get random number
 var max = 3;
