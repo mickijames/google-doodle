@@ -44,5 +44,5 @@ Castle:
 
 [POC](https://images8.alphacoders.com/673/673784.jpg)
 
-## Disney Opening Video
-https://www.youtube.com/watch?v=dqvF85T4vCg
+## Plugin Code Credit
+http://leocs.me/jquery-drawsvg/

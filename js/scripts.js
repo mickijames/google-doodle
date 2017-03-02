@@ -19,7 +19,7 @@ $('.random').attr('src', eval('img' + randNum));
 
 // Store SVG Points
 var google = $('svg').drawsvg({
-  duration: 3000,
+  duration: 3000
 });
 
 // Animate SVG Points
