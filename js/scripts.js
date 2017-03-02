@@ -17,3 +17,12 @@ var randNum = Math.floor(Math.random() * max);
 // Display randomized images
 $('.random').attr('src', eval('img' + randNum));
 
+
+
+// Store SVG Points
+var google = $('svg').drawsvg({
+  duration: 3000,
+});
+
+// Animate SVG Points
+google.drawsvg('animate');

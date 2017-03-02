@@ -3,17 +3,18 @@
 
 #stage {
     background: #ccc;
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    width: 750px;
   
     position: relative;
 //    overflow: hidden;
 }
 
 #stage #headline {
-    position: relative;
-    top: -11.25em;
-    margin: auto .5em 0;
+    position: absolute;
+    top: 11em;
+    left: 0;
+    margin: 0 1em;
 }
 
 
