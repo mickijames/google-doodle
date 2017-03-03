@@ -9,21 +9,18 @@ img {
 
 // Headline Styling
 #headline {
-    top: -20em;
-    .st0 {
-        fill:none;
-        stroke:#E5EEFD;
-        stroke-miterlimit:10;
-    }
-}
-
-// First
-#headline {
     width: 95%;
     padding: 1em;
     
     position: absolute;
     left: 0;
+    top: -20em;
+    
+    .st0 {
+        fill:none;
+        stroke:#E5EEFD;
+        stroke-miterlimit:10;
+    }
 }
 
 // Last

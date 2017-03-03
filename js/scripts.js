@@ -18,7 +18,7 @@ $('.random').attr('src', eval('img' + randNum));
 
 // Store SVG Points
 var google = $('svg').drawsvg({
-    duration: 2000,
+    duration: 1000,
     stagger: 0
 });
 
