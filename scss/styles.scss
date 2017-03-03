@@ -9,20 +9,30 @@ img {
 
 // Headline Styling
 #headline {
+    top: -20em;
+    .st0 {
+        fill:none;
+        stroke:#E5EEFD;
+        stroke-miterlimit:10;
+    }
+}
+
+// First
+#headline {
     width: 95%;
     padding: 1em;
     
     position: absolute;
-    top: -20em;
     left: 0;
-
 }
 
+// Last
 #stage:hover #headline {
     top: 4.5em;
-
+    
     animation: rotateIn 1s 1;
 }
+
     
 // Fireworks Styling
 #fireworks {

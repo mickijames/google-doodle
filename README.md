@@ -44,5 +44,8 @@ Castle:
 
 [POC](https://images8.alphacoders.com/673/673784.jpg)
 
-## Plugin Code Credit
+## Plugin Credit
 http://leocs.me/jquery-drawsvg/
+
+## Animation Credit
+https://daneden.github.io/animate.css/

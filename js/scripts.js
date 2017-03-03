@@ -22,22 +22,12 @@ var google = $('svg').drawsvg({
     stagger: 0
 });
 
-// Animate SVG Points
-//google.drawsvg('animate');
-
 
 $('#stage').hover(
     function () {
-        $('#headline').addClass('hover');
-        $('#fireworks').addClass('hover');
-        
-
         // Animate SVG Points
         google.drawsvg('animate');
         
     }, function () {
-        $('#headline').removeClass('hover');
-        $('#fireworks').removeClass('hover'); 
-        
-        google.hide();
+        google.fadeOut();
 });
