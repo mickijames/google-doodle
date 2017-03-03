@@ -2,13 +2,67 @@
 
 @import 'google-homepage';
 
-
 img {
     width: 100%;
     height: 100%;
 }
 
-.st0 {
-    fill:#e5eefd;
+// Headline Styling
+#headline {
+    width: 95%;
+    padding: 1em;
+    
+    position: absolute;
+    top: -20em;
+    left: 0;
+
 }
 
+#stage:hover #headline {
+    top: 4.5em;
+
+    animation: rotateIn 1s 1;
+}
+    
+// Fireworks Styling
+#fireworks {
+    position: absolute;
+    bottom: 0;
+    left: 3em;
+    
+    .st0, .st1, .st2 {
+        fill:none;
+        stroke-width:2;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-miterlimit:10;
+    }
+    .st0 {
+        stroke:#0466CE;
+    }
+    .st1 {
+        stroke:#E5EEFD;
+    }
+    .st2 {
+        stroke:#FF9A2D;
+    }
+}
+
+// RotateIn
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}

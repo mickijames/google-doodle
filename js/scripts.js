@@ -16,10 +16,10 @@ var randNum = Math.floor(Math.random() * max);
 $('.random').attr('src', eval('img' + randNum));
 
 
-
 // Store SVG Points
 var google = $('svg').drawsvg({
-  duration: 3000
+    duration: 2000,
+    stagger: 0
 });
 
 // Animate SVG Points
