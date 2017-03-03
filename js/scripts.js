@@ -23,4 +23,21 @@ var google = $('svg').drawsvg({
 });
 
 // Animate SVG Points
-google.drawsvg('animate');
+//google.drawsvg('animate');
+
+
+$('#stage').hover(
+    function () {
+        $('#headline').addClass('hover');
+        $('#fireworks').addClass('hover');
+        
+
+        // Animate SVG Points
+        google.drawsvg('animate');
+        
+    }, function () {
+        $('#headline').removeClass('hover');
+        $('#fireworks').removeClass('hover'); 
+        
+        google.hide();
+});
